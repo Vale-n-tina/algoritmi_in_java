@@ -5,12 +5,12 @@ public class Es3 {
 
 
     public static void stampaParola(){
-    Scanner scanner=new Scanner(System.in);
+    Scanner scanner1=new Scanner(System.in);
 
 
       while (true){
           System.out.println("inserisci una parola (o ':d' per terminare)");
-          String parola = scanner.nextLine();
+          String parola = scanner1.nextLine();
           if(parola.equals(":d")){
               System.out.println("programma terminato");
              break;
@@ -21,5 +21,5 @@ public class Es3 {
          }System.out.println();
       }
 
-      scanner.close();}
+      scanner1.close();}
 }

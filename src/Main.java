@@ -7,7 +7,7 @@ public class Main {
 		System.out.println(Es1.stringaPAriDispari("ciaos"));
 
 		System.out.println(Es1.anooBisestile(2024));
-		//Es2.stampaNumero();
+		Es2.stampaNumero();
 		Es3.stampaParola();
 	}
 
